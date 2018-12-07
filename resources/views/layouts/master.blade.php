@@ -5,27 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/progress-circle.css') }}"/>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+
+
+    <title>Scargo Reviews</title>
 </head>
 <body>
 
+
  <header>
-     <h1>Mediacollege Amsterdam</h1>
      @section('header')
      @show
  </header>
 <nav>
-    NAV
+
 </nav>
 <main>
+
     @yield('content')
 </main>
-<footer>
-    FOOTER
-</footer>
+
+
 
 
 
