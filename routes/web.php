@@ -20,9 +20,20 @@ Route::get('/opleidingen', function () {
     return view('opleidingen');
 });
 
+Route::get('/header', function () {
+    return view('header');
+});
+
+Route::get('/review', function () {
+    return view('review');
+});
+
+
 
 Route::get('/test', 'TestController@index');
 
 
 
+Route::post('/store', "UserController@store");
+Route::get('/logs', "UserController@logs");
 
